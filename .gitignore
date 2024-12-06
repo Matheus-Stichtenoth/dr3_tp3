@@ -20,6 +20,8 @@ pyvenv.cfg
 /etc
 pip-selfcheck.json
 
+main.py
+
 ### VirtualEnv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
