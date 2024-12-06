@@ -30,7 +30,6 @@ try:
     from langchain_community.utilities import EventbriteAPIWrapper
     events = EventbriteAPIWrapper(eventbrite_api_key=EVENTBRITE_API_KEY)
 except ImportError:
-    st.warning("Eventbrite API Wrapper não encontrado. Verifique se está configurado corretamente.")
     events = None
 
 tools = [
